@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F68DE7320DF565800731729 /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F68DE7220DF565800731729 /* DroppablePin.swift */; };
 		2FD69BED20D0CEBF001389C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD69BEC20D0CEBF001389C4 /* AppDelegate.swift */; };
 		2FD69BEF20D0CEBF001389C4 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD69BEE20D0CEBF001389C4 /* MapVC.swift */; };
 		2FD69BF220D0CEBF001389C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FD69BF020D0CEBF001389C4 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F68DE7220DF565800731729 /* DroppablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
 		2FD69BE920D0CEBF001389C4 /* pixel-city.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pixel-city.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FD69BEC20D0CEBF001389C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FD69BEE20D0CEBF001389C4 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 		2FD69BFF20D0CFB2001389C4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2F68DE7220DF565800731729 /* DroppablePin.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FD69BEF20D0CEBF001389C4 /* MapVC.swift in Sources */,
+				2F68DE7320DF565800731729 /* DroppablePin.swift in Sources */,
 				2FD69BED20D0CEBF001389C4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,7 +403,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 344L79385W;
 				INFOPLIST_FILE = "pixel-city/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "personal.minricompany.pixel-city";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -415,7 +422,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 344L79385W;
 				INFOPLIST_FILE = "pixel-city/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "personal.minricompany.pixel-city";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
