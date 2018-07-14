@@ -143,6 +143,8 @@ extension MapVC: MKMapViewDelegate {
         let annotation = DroppablePin(coordinate: touchCoodinate, identifier: "droppablePin")
         mapView.addAnnotation(annotation)
         
+        print(flickrUrl(forApiKey: apiKey, withAnnotation: annotation, andNumberOfPhotos: 40))
+        
         let coordinateRegion = MKCoordinateRegionMakeWithDistance(touchCoodinate, regionRadius * 2.0, regionRadius * 2.0)
         mapView.setRegion(coordinateRegion, animated: true)
     }
